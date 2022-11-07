@@ -29,10 +29,10 @@ def daily_mean(data):
 
 def daily_std(data):
     """Calculate the standard deviation of a 2D inflammation data array
-    
+
     :param data: 2D array
     :returns: standard deviation of array
-    
+
     """
     return np.std(data, axis=0)
 
